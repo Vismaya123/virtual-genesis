@@ -1,9 +1,10 @@
 #include<stdio.h>
 int main() 
 {
-  int x,y;
-  x=-6;
-  y=x<<1;
-  printf("y= %d" ,y);
+  int x,y,z;
+  x = -6;
+  y = x<<1;
+  z = x>>1;
+  printf("y = %d" ,y);
   return 0;
 }
