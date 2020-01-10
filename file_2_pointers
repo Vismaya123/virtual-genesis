@@ -1,0 +1,13 @@
+int main() 
+{
+ int i = 12;
+ int *ip = &i;
+ double d = 2.3;
+ double *dp = &d;
+ printf("value of ip = address of i = %u\n", ip);
+ printf("value of dp = address of d = %u\n", dp);
+ printf("address of ip = %p\n", &ip);
+ printf("value of ip = %d\n", *ip);
+ 
+  return 0;
+}
