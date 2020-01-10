@@ -1,0 +1,21 @@
+#include<stdio.h>
+struct dog
+{char name[10];
+ char breed[10];
+ int age;
+ char color[10];
+};
+typedef struct dog sdog;
+ int main()
+{
+  sdog spike = {"tyke", "Bulldog", 5, "white"};
+  sdog *ptr;
+  ptr = &spike;
+  printf("dog's name: %s\n",ptr-> name);
+  printf("age:%d\n", spike.age);
+  printf("breed:%s\n", ptr->breed);
+  printf("color:%s\n", spike.color);
+  
+  return 0;
+}
+  
